@@ -1,0 +1,55 @@
+<!-- İçimi Demirağ - 191180033 -->
+
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Knapsack - İçimi Demirağ</title>
+</head>
+
+<body>
+    <div>
+        <table>
+            <tr>
+                <th>Nesneler</th>
+                <th>A</th>
+                <th>B</th>
+                <th>C</th>
+                <th>D</th>
+                <th>E</th>
+            </tr>
+            <tr>
+                <td>Ağırlıklar (W)</td>
+                <td><input type="text" id="wA"></td>
+                <td><input type="text" id="wB"></td>
+                <td><input type="text" id="wC"></td>
+                <td><input type="text" id="wD"></td>
+                <td><input type="text" id="wE"></td>
+            </tr>
+            <tr>
+                <td>Değerler (V)</td>
+                <td><input type="text" id="vA"></td>
+                <td><input type="text" id="vB"></td>
+                <td><input type="text" id="vC"></td>
+                <td><input type="text" id="vD"></td>
+                <td><input type="text" id="vE"></td>
+            </tr>
+        </table>
+    </div>
+
+    <div style="margin-top: 10px;">
+        Kapasite: <input type="text" id="k">
+        <button onClick="knapsack()">Knapsack</button>
+    </div>
+
+    <div id="myDiagramDiv" style="width:auto; height:100vh;"></div>
+
+    <script src="go.js"></script>
+    <script src="diagram.js"></script>
+    <script src="knapsack.js"></script>
+</body>
+
+</html>
